@@ -46,6 +46,49 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="HDH.ClassLoader" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{789EB475-D9F8-405D-9E41-2B8040EA37C0}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">HDH.ClassLoader</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../PPL</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A3E379C6-BFBC-442A-8323-C9CEDB758AFC}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">HDH.ClassLoader.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../PPL/HDH.ClassLoader.lvlibp</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../PPL</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6225F688-FDF4-43EB-BCF0-A8EC43E400C7}</Property>
+				<Property Name="Source[0].newName" Type="Str">HDH.ClassLoader_</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ClassLoader.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Danfoss</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">HDH.ClassLoader</Property>
+				<Property Name="TgtF_internalName" Type="Str">HDH.ClassLoader</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Danfoss</Property>
+				<Property Name="TgtF_productName" Type="Str">HDH.ClassLoader</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F7191F6D-718A-4315-9CB7-05930DB63EA9}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">HDH.ClassLoader.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="OOP Test" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{5D4C4D0D-8D3F-4603-9E0B-ECEAD60FE823}</Property>
@@ -76,7 +119,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{C88ED82C-56D8-44ED-BBCE-AA1DEEC1157D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ClassLoader.lvlib/Utility/Acquire Class Details.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ClassLoader.lvlib/Sub/Data Extraction/Acquire Class Details.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Test/Test_Acquire.vi</Property>
