@@ -10,6 +10,9 @@
 
 </Property>
 	<Item Name="Info" Type="Folder">
+		<Item Name="Get Class Hierarchy.vi" Type="VI" URL="../Info/Get Class Hierarchy.vi"/>
+		<Item Name="Get Class Info.vi" Type="VI" URL="../Info/Get Class Info.vi"/>
+		<Item Name="Get Class Members.vi" Type="VI" URL="../Info/Get Class Members.vi"/>
 		<Item Name="List Class Hierarchies.vi" Type="VI" URL="../Info/List Class Hierarchies.vi"/>
 		<Item Name="List Class Paths.vi" Type="VI" URL="../Info/List Class Paths.vi"/>
 	</Item>
@@ -23,6 +26,24 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 			<Item Name="Cache_Hierarchy Global_Load All.vi" Type="VI" URL="../Sub/Cache/Cache_Hierarchy Global_Load All.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Cache_Hierarchy Load.vi" Type="VI" URL="../Sub/Cache/Cache_Hierarchy Load.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Cache_Info Load.vi" Type="VI" URL="../Sub/Cache/Cache_Info Load.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Cache_Members Global.vi" Type="VI" URL="../Sub/Cache/Cache_Members Global.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Cache_Members Global_Load All.vi" Type="VI" URL="../Sub/Cache/Cache_Members Global_Load All.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Cache_Members Global_Write.vi" Type="VI" URL="../Sub/Cache/Cache_Members Global_Write.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Cache_Members Load.vi" Type="VI" URL="../Sub/Cache/Cache_Members Load.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 			<Item Name="Cache_Path Global.vi" Type="VI" URL="../Sub/Cache/Cache_Path Global.vi">
@@ -48,7 +69,9 @@
 			<Item Name="Ctl_Class Info.ctl" Type="VI" URL="../Sub/Ctl/Ctl_Class Info.ctl"/>
 			<Item Name="Ctl_Front-load Scope.ctl" Type="VI" URL="../Sub/Ctl/Ctl_Front-load Scope.ctl"/>
 			<Item Name="Ctl_Hierarchy Cluster.ctl" Type="VI" URL="../Sub/Ctl/Ctl_Hierarchy Cluster.ctl"/>
+			<Item Name="Ctl_Member Map.ctl" Type="VI" URL="../Sub/Ctl/Ctl_Member Map.ctl"/>
 			<Item Name="Ctl_PPL Details.ctl" Type="VI" URL="../Sub/Ctl/Ctl_PPL Details.ctl"/>
+			<Item Name="Ctl_Un-load Scope.ctl" Type="VI" URL="../Sub/Ctl/Ctl_Un-load Scope.ctl"/>
 		</Item>
 		<Item Name="Data Extraction" Type="Folder">
 			<Item Name="Sub" Type="Folder">
@@ -68,4 +91,5 @@
 	<Item Name="Front-load.vi" Type="VI" URL="../Front-load.vi"/>
 	<Item Name="Load Class by Name.vi" Type="VI" URL="../Load Class by Name.vi"/>
 	<Item Name="Register PPLs.vi" Type="VI" URL="../Register PPLs.vi"/>
+	<Item Name="Un-load.vi" Type="VI" URL="../Un-load.vi"/>
 </Library>
