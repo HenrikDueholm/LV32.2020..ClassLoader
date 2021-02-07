@@ -16,6 +16,7 @@
 			<Item Name="Acquire Class Details_Variant.vi" Type="VI" URL="../Test/Acquire Class Details_Variant.vi"/>
 			<Item Name="Test_Acquire.vi" Type="VI" URL="../Test/Test_Acquire.vi"/>
 			<Item Name="Test_Class Load.vi" Type="VI" URL="../Test/Test_Class Load.vi"/>
+			<Item Name="Test_Populate.vi" Type="VI" URL="../Test/Test_Populate.vi"/>
 		</Item>
 		<Item Name="ClassLoader.lvlib" Type="Library" URL="../ClassLoader.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -56,7 +57,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A3E379C6-BFBC-442A-8323-C9CEDB758AFC}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HDH.ClassLoader.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../PPL/HDH.ClassLoader.lvlibp</Property>
@@ -87,52 +88,6 @@
 				<Property Name="TgtF_productName" Type="Str">HDH.ClassLoader</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F7191F6D-718A-4315-9CB7-05930DB63EA9}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">HDH.ClassLoader.lvlibp</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="OOP Test" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{5D4C4D0D-8D3F-4603-9E0B-ECEAD60FE823}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{E7706E88-99E1-4752-9A36-844F53283401}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="App_waitDebugging" Type="Bool">true</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Danfoss.com</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{D59B4247-E94B-4848-9A48-3B2C4B65EB83}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">OOP Test</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/OOP Test</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{88094E79-379A-4370-8E5D-E8D7D24538C8}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">OOP Test.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/OOP Test/OOP Test.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/OOP Test/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C88ED82C-56D8-44ED-BBCE-AA1DEEC1157D}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ClassLoader.lvlib/Sub/Data Extraction/Acquire Class Details.vi</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Test/Test_Acquire.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">Danfoss</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">OOP Test</Property>
-				<Property Name="TgtF_internalName" Type="Str">OOP Test</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Danfoss</Property>
-				<Property Name="TgtF_productName" Type="Str">OOP Test</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{73044A4C-CDFF-4488-B84F-E3F5C595FE88}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">OOP Test.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

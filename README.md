@@ -6,3 +6,4 @@ Implemented functionality:
 - Front-loading of cached data or caching (and un-load on request)
 - Get filtered class hierarchies (e.g. return hierarchy for all members of the Message class hierarchy)
 - Get Members of a class, get hierarchy of a class, get if a class is an interface.
+- Populate Tree, Ring and Listboxes with a class hierarchy.
