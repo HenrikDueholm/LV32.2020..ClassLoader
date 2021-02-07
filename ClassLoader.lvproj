@@ -15,7 +15,6 @@
 		<Item Name="Test" Type="Folder">
 			<Item Name="Acquire Class Details_Variant.vi" Type="VI" URL="../Test/Acquire Class Details_Variant.vi"/>
 			<Item Name="Test_Acquire.vi" Type="VI" URL="../Test/Test_Acquire.vi"/>
-			<Item Name="Test_Cache.vi" Type="VI" URL="../Test/Test_Cache.vi"/>
 			<Item Name="Test_Class Load.vi" Type="VI" URL="../Test/Test_Class Load.vi"/>
 		</Item>
 		<Item Name="ClassLoader.lvlib" Type="Library" URL="../ClassLoader.lvlib"/>
@@ -23,7 +22,6 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
@@ -31,6 +29,7 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Member VI Info.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/Data Type/Member VI Info.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
@@ -57,7 +56,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A3E379C6-BFBC-442A-8323-C9CEDB758AFC}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HDH.ClassLoader.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../PPL/HDH.ClassLoader.lvlibp</Property>

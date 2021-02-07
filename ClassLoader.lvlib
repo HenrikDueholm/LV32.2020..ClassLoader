@@ -13,57 +13,33 @@
 		<Item Name="Get Class Hierarchy.vi" Type="VI" URL="../Info/Get Class Hierarchy.vi"/>
 		<Item Name="Get Class Info.vi" Type="VI" URL="../Info/Get Class Info.vi"/>
 		<Item Name="Get Class Members.vi" Type="VI" URL="../Info/Get Class Members.vi"/>
+		<Item Name="Get Class Path.vi" Type="VI" URL="../Info/Get Class Path.vi"/>
 		<Item Name="List Class Hierarchies.vi" Type="VI" URL="../Info/List Class Hierarchies.vi"/>
 		<Item Name="List Class Paths.vi" Type="VI" URL="../Info/List Class Paths.vi"/>
+		<Item Name="List Classes and Interfaces.vi" Type="VI" URL="../Info/List Classes and Interfaces.vi"/>
 	</Item>
 	<Item Name="Sub" Type="Folder">
 		<Item Name="Cache" Type="Folder">
-			<Item Name="Cache_Check if Cached.vi" Type="VI" URL="../Sub/Cache/Cache_Check if Cached.vi"/>
-			<Item Name="Cache_Get Path to Cache from Class Name.vi" Type="VI" URL="../Sub/Cache/Cache_Get Path to Cache from Class Name.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_Hierarchy Global.vi" Type="VI" URL="../Sub/Cache/Cache_Hierarchy Global.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_Hierarchy Global_Load All.vi" Type="VI" URL="../Sub/Cache/Cache_Hierarchy Global_Load All.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_Hierarchy Load.vi" Type="VI" URL="../Sub/Cache/Cache_Hierarchy Load.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_Info Load.vi" Type="VI" URL="../Sub/Cache/Cache_Info Load.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_Members Global.vi" Type="VI" URL="../Sub/Cache/Cache_Members Global.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_Members Global_Load All.vi" Type="VI" URL="../Sub/Cache/Cache_Members Global_Load All.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_Members Global_Write.vi" Type="VI" URL="../Sub/Cache/Cache_Members Global_Write.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_Members Load.vi" Type="VI" URL="../Sub/Cache/Cache_Members Load.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_Path Global.vi" Type="VI" URL="../Sub/Cache/Cache_Path Global.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_Path Global_Read.vi" Type="VI" URL="../Sub/Cache/Cache_Path Global_Read.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_Path Global_Write.vi" Type="VI" URL="../Sub/Cache/Cache_Path Global_Write.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_PPL Global.vi" Type="VI" URL="../Sub/Cache/Cache_PPL Global.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_PPL Global_List Cache Files.vi" Type="VI" URL="../Sub/Cache/Cache_PPL Global_List Cache Files.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Cache_Save.vi" Type="VI" URL="../Sub/Cache/Cache_Save.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="Cache_Get Path to Cache from Class Name.vi" Type="VI" URL="../Sub/Cache/Cache_Get Path to Cache from Class Name.vi"/>
+			<Item Name="Cache_Hierarchy Global.vi" Type="VI" URL="../Sub/Cache/Cache_Hierarchy Global.vi"/>
+			<Item Name="Cache_Hierarchy Global_Load All.vi" Type="VI" URL="../Sub/Cache/Cache_Hierarchy Global_Load All.vi"/>
+			<Item Name="Cache_Hierarchy Global_Write.vi" Type="VI" URL="../Sub/Cache/Cache_Hierarchy Global_Write.vi"/>
+			<Item Name="Cache_Hierarchy Load.vi" Type="VI" URL="../Sub/Cache/Cache_Hierarchy Load.vi"/>
+			<Item Name="Cache_Info Global.vi" Type="VI" URL="../Sub/Cache/Cache_Info Global.vi"/>
+			<Item Name="Cache_Info Global_Load All.vi" Type="VI" URL="../Sub/Cache/Cache_Info Global_Load All.vi"/>
+			<Item Name="Cache_Info Global_Write.vi" Type="VI" URL="../Sub/Cache/Cache_Info Global_Write.vi"/>
+			<Item Name="Cache_Info Load.vi" Type="VI" URL="../Sub/Cache/Cache_Info Load.vi"/>
+			<Item Name="Cache_Members Global.vi" Type="VI" URL="../Sub/Cache/Cache_Members Global.vi"/>
+			<Item Name="Cache_Members Global_Load All.vi" Type="VI" URL="../Sub/Cache/Cache_Members Global_Load All.vi"/>
+			<Item Name="Cache_Members Global_Write.vi" Type="VI" URL="../Sub/Cache/Cache_Members Global_Write.vi"/>
+			<Item Name="Cache_Members Load.vi" Type="VI" URL="../Sub/Cache/Cache_Members Load.vi"/>
+			<Item Name="Cache_Path Global.vi" Type="VI" URL="../Sub/Cache/Cache_Path Global.vi"/>
+			<Item Name="Cache_Path Global_Read.vi" Type="VI" URL="../Sub/Cache/Cache_Path Global_Read.vi"/>
+			<Item Name="Cache_Path Global_Write.vi" Type="VI" URL="../Sub/Cache/Cache_Path Global_Write.vi"/>
+			<Item Name="Cache_PPL Global.vi" Type="VI" URL="../Sub/Cache/Cache_PPL Global.vi"/>
+			<Item Name="Cache_PPL Global_List Cache Files.vi" Type="VI" URL="../Sub/Cache/Cache_PPL Global_List Cache Files.vi"/>
+			<Item Name="Cache_Save.vi" Type="VI" URL="../Sub/Cache/Cache_Save.vi"/>
 		</Item>
 		<Item Name="Ctl" Type="Folder">
 			<Item Name="Ctl_Class Info.ctl" Type="VI" URL="../Sub/Ctl/Ctl_Class Info.ctl"/>
@@ -79,6 +55,7 @@
 				<Item Name="Acquire Class Details_Get Member VIs.vi" Type="VI" URL="../Sub/Data Extraction/Sub/Acquire Class Details_Get Member VIs.vi"/>
 			</Item>
 			<Item Name="Acquire Class Details.vi" Type="VI" URL="../Sub/Data Extraction/Acquire Class Details.vi"/>
+			<Item Name="Check if PPL is Cached.vi" Type="VI" URL="../Sub/Data Extraction/Check if PPL is Cached.vi"/>
 			<Item Name="List Classes in PPL.vi" Type="VI" URL="../Sub/Data Extraction/List Classes in PPL.vi"/>
 			<Item Name="List PPLs.vi" Type="VI" URL="../Sub/Data Extraction/List PPLs.vi"/>
 		</Item>
@@ -89,6 +66,7 @@
 		</Item>
 	</Item>
 	<Item Name="Front-load.vi" Type="VI" URL="../Front-load.vi"/>
+	<Item Name="Get Class Name and Path.vi" Type="VI" URL="../Get Class Name and Path.vi"/>
 	<Item Name="Load Class by Name.vi" Type="VI" URL="../Load Class by Name.vi"/>
 	<Item Name="Register PPLs.vi" Type="VI" URL="../Register PPLs.vi"/>
 	<Item Name="Un-load.vi" Type="VI" URL="../Un-load.vi"/>
