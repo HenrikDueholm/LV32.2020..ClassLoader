@@ -57,7 +57,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A3E379C6-BFBC-442A-8323-C9CEDB758AFC}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HDH.ClassLoader.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../PPL/HDH.ClassLoader.lvlibp</Property>
